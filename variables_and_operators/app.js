@@ -20,5 +20,12 @@ var word2 = 'world';
 
 console.log(word1 + word2);
 
+/* Exercise 3:****************************************************
+Create two String variables and make a sum with the length of them
+(quantity of string's letters) saveing them in a third variable. 
+(use length)*****************************************************/
 
+var word3 = 'every';
+var word4 = 'body';
 
+console.log(word3.length + word4.length);
