@@ -1,5 +1,5 @@
 
-/* Exercise 1:****************************************************
+/* Exercise A:****************************************************
 Create two numeric variables and use the operator 'sum' to save the
 sum value in both numbers in a third variable.*********************/
 
@@ -11,7 +11,7 @@ number3 = number1 + number2;
 
 console.log(number3);
 
-/* Exercise 2:****************************************************
+/* Exercise B:****************************************************
 Create two String variables and concatenate them saving the result
 in a third variable **********************************************/
 
@@ -20,7 +20,7 @@ var word2 = 'world';
 
 console.log(word1 + word2);
 
-/* Exercise 3:****************************************************
+/* Exercise C:****************************************************
 Create two String variables and make a sum with the length of them
 (quantity of string's letters) saveing them in a third variable. 
 (use length)*****************************************************/
