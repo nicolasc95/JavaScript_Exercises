@@ -11,5 +11,14 @@ number3 = number1 + number2;
 
 console.log(number3);
 
+/* Exercise 2:****************************************************
+Create two String variables and concatenate them saving the result
+in a third variable **********************************************/
+
+var word1 = 'Hello';
+var word2 = 'world';
+
+console.log(word1 + word2);
+
 
 
