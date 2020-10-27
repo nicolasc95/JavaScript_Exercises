@@ -66,3 +66,31 @@ result = sum3 ("A",7) ;
 console.log ('Exercise D - False: A + 7 = ' + result) ;
 result = sum3 (4.3,7) ;
 console.log ('Exercise D - False: 4.3 + 7 = ' + result) ;
+
+/*Exercise E:********************************************************
+Transform the validation of exercise 6-B into a separate function and 
+call it within the sum function, checking that everything continues 
+working.***** *******************************************************/
+
+var result
+
+function sum4 (a,b) {
+  if (validation (a,b)) {
+    return a + b ;
+  } else{
+    return NaN;
+  }
+}
+function validation (a,b){
+  if ( (typeof (a) == 'number') && (typeof (b) == 'number') ) {
+    return true ;
+  }else {
+    window.alert ('Exercise E: a parameter have an error')
+    return false ;
+  }
+}
+
+result = sum4 (4,7) ;
+console.log ('Exercise E - True: 4 + 7 = ' + result) ;
+result = sum4 ("A",7) ;
+console.log ('Exercise E - False: A + 7 = ' + result) ;
