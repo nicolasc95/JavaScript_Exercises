@@ -1,25 +1,25 @@
-@font-face{
+@font-face {
   font-family: purple-purse-regular;
   src: url(../Fonts/PurplePurse-Regular.ttf);
 }
-@font-face{
+@font-face {
   font-family: inconsolata;
   src: url(../Fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
-@font-face{
+@font-face {
   font-family: berkshireswash-regular;
   src: url(../Fonts/BerkshireSwash-Regular.ttf);
 }
-@media (max-width:768px){
+@media (max-width:768px) {
   nav .nav_menu{
     display:none;
   }
 }
-@media (min-width:768px){
+@media (min-width:768px) {
   .material-icons{
     display:none;
   }
-  .footer_list .list_elements{
+  .footer_list .list_elements {
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
@@ -27,26 +27,26 @@
   padding: 10px;
 }
 }
-body{
+body {
   min-width: 90%;
 }
-img{
+img {
   max-width: 100%;
 }
-a{
+a {
   line-height: 1.5;
   color: #f6ccb2;
   font-family: inconsolata;
   font-size: 16px;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration:underline;
 }
-a:visited{
+a:visited {
   text-decoration:underline;
 }
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -54,18 +54,18 @@ a:visited{
   min-height: 70px;
   background-color: #95a1ae;
 }
-.container .branding{
+.container .branding {
   padding: 25px 0px;
   color: black;
   font-family: purple-purse-regular;
   font-size:50px;
   text-shadow: 2px 2px 4px #d37c66;
 }
-.nav_menu a{
+.nav_menu a {
   font-family: inconsolata;
   font-size: 20px;
 }
-.nav_menu{
+.nav_menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -74,19 +74,19 @@ a:visited{
   border-width: 2px;
   border-color: #f6ccb2;
 }
-.nav_menu li{
+.nav_menu li {
   display:inline;
   margin: 0px 10px;
   padding: 8px 20px;
   background-color: #d37c66; 
 }
-.top_nav{
+.top_nav {
   margin: 5px 0px;
 }
-.bottom_nav{
+.bottom_nav {
   margin: 5px 0px;
 }
-.today{
+.today {
   display:flex;
   flex-direction:row;
   justify-content: space-around;
@@ -100,23 +100,22 @@ a:visited{
   font-family: inconsolata;
   font-size: 20px;
   text-decoration: none;
-  
 }
-footer .container{
+footer .container {
   flex-direction: column;
   align-items: center;
 }
-.container cite{
+.container cite {
   line-height: 1.5;
   color:  #f6ccb2;
   text-shadow: 2px 2px 4px black;
   font-family: inconsolata;
   font-size:16px
 }
-.footer_list{
+.footer_list {
   width: 80%;
 }
-.footer_list ul{
+.footer_list ul {
   width: 100%;
   display:flex;
   flex-direction:column;

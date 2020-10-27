@@ -1,83 +1,82 @@
-@font-face{
+@font-face {
   font-family: berkshireswash-regular;
   src: url(../Fonts/BerkshireSwash-Regular.ttf);
 }
-@font-face{
+@font-face {
   font-family: inconsolata;
   src: url(../Fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
-@media (max-width:1024px){
-  article{
+@media (max-width:1024px) {
+  article {
     min-width: 100%;
   }
 }
-@media (min-width:1024px){
-  .publicity .box{
+@media (min-width:1024px) {
+  .publicity .box {
     min-width: 75%;
   }
-  aside{
+  aside {
     background-color: #c8cfd6;
   }
 }
-@media (max-width:768px){
-  .box{
+@media (max-width:768px) {
+  .box {
     min-width: 75%;
   }
   .publicity .box{
     min-width: 50%;
   }
 }
-img{
+img {
   min-width: 100%;
 }
-cite{
+cite {
   padding:0px 10px;
   color: #95a1ae;
   font-family:inconsolata;
   font-size: 13px;
 }
-cite strong{
+cite strong {
   text-transform: uppercase;
 }
-h2{
+h2 {
   padding:10px 10px;
   font-size:24px;
   font-family: berkshirewash-regular;
 }
-h3{ 
+h3 { 
   padding: 4px;
   font-size:20px;
   font-family: berkshirewash-regular;
-  
 }
-p{
+p {
   padding:0px 10px 10px 10px;
   font-family:inconsolata;
   font-size:16px;
 }
-.main_container{
+.main_container {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 100%;
   justify-content:flex-start;
 }
-article{
+article {
   flex:2 0;
 }
-aside{
+aside {
   flex:1 1;
 }
-.primary{
+.primary {
   max-width: 100%;
   line-height:1.2;
   background-color: #efded6;
   font-size:18px;
 }
-.primary h2{
+.primary h2 {
   font-size:28px;
 }
-.secondary{
+.secondary {
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
@@ -85,11 +84,11 @@ aside{
   justify-content: center;
   padding: 3% 0px;
 }
-.box{
+.box {
   width: 44.5%;
   padding:0px 15px;
 }
-.publicity{
+.publicity {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -98,7 +97,7 @@ aside{
   border-width: 2px;
   border-color: #f6ccb2;
 }
-.publicity .box{
+.publicity .box {
   width: 35%;
   margin: 1%;
   padding:5%
