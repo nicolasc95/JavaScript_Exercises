@@ -6,7 +6,7 @@ var words = ["coffe","coke","limonade","cookies","chocolate"] ;
 var i ;
 
 for (i=0; i < words.length ; i++) {
-  window.alert('Exercise A:' + words[i] ) ;
+  window.alert('Exercise A:' + ' ' + words[i] ) ;
 }
 
 /*Exercise B:********************************************************
@@ -18,3 +18,16 @@ for (i=0; i < words.length ; i++) {
   up = firstLetter.toUpperCase() ;
   window.alert ('Exercise B:' + ' ' + up + words[i].substr(1) );
 }
+
+/*Exercise C:********************************************************
+Create a variable with an empty string and call it 'sentence'. Then, 
+run the previous Array with a For loop and save every word in 'sentence'
+At the end, show an unique alert with all the chain******************/
+
+var sentence = '' ;
+
+for (i=0; i < words.length ; i++) {
+  sentence += words[i];
+}
+window.alert ('Exercise C:' + ' ' + sentence) ;
+
