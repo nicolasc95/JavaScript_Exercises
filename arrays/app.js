@@ -13,3 +13,12 @@ Order alphabetically the month's array and show it in the console (use
 sort)****************************************************************/
 
 console.log('Exercise B:' + months.sort() ) ;
+
+/*Exercise C:********************************************************
+Add an element at the array's beginning and end (use unshift and push)
+*********************************************************************/
+
+months.unshift('Monday') ;
+months.push('Sunday') ;
+
+console.log('Exercise C:' + months) ;
