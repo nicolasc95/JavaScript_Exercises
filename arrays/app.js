@@ -36,3 +36,9 @@ console.log('Exercise D:' + months) ;
 Reverse the array's order. (use reverse)*****************************/
 
 console.log('Exercise E:' + months.reverse() ) ;
+
+/*Exercise F:********************************************************
+Join all the array's elements in an unique String where every month 
+will be separate with a script "-" (use join) ***********************/
+
+console.log('Exercise F:' + months.join('-') ) ;
