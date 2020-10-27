@@ -9,4 +9,6 @@
 <h2>FlexBox corrections (week_3)</h2>
 <p>The corrections are in the CSS files with the last commit ('brake corrections')</p>
 <br />
+<hl />
+<br />
 <cite>By Nicolás Carducci</cite>
