@@ -20,7 +20,6 @@ Add an element at the array's beginning and end (use unshift and push)
 
 months.unshift('Monday') ;
 months.push('Sunday') ;
-
 console.log('Exercise C:' + months) ;
 
 /*Exercise D:********************************************************
@@ -29,7 +28,6 @@ Delete an element at the array's beginning and end (use shift and pop)
 
 months.shift() ;
 months.pop() ;
-
 console.log('Exercise D:' + months) ;
 
 /*Exercise E:********************************************************
@@ -42,3 +40,14 @@ Join all the array's elements in an unique String where every month
 will be separate with a script "-" (use join) ***********************/
 
 console.log('Exercise F:' + months.join('-') ) ;
+
+/*Exercise G:********************************************************
+Create a copy of the array of months that contains May through November. 
+(use slice) *********************************************************/
+
+var months = ["January","February","March", "April", "May", "June", 
+"July", "August", "September", "October", "November", "December"] ;
+
+anotherMonths = months.slice(4,11) ;
+console.log('Exercise G:' + anotherMonths ) ;
+
