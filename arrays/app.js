@@ -32,3 +32,7 @@ months.pop() ;
 
 console.log('Exercise D:' + months) ;
 
+/*Exercise E:********************************************************
+Reverse the array's order. (use reverse)*****************************/
+
+console.log('Exercise E:' + months.reverse() ) ;
