@@ -22,3 +22,13 @@ months.unshift('Monday') ;
 months.push('Sunday') ;
 
 console.log('Exercise C:' + months) ;
+
+/*Exercise D:********************************************************
+Delete an element at the array's beginning and end (use shift and pop)
+*********************************************************************/
+
+months.shift() ;
+months.pop() ;
+
+console.log('Exercise D:' + months) ;
+
