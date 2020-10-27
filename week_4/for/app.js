@@ -31,3 +31,15 @@ for (i=0; i < words.length ; i++) {
 }
 window.alert ('Exercise C:' + ' ' + sentence) ;
 
+/*Exercise D:********************************************************
+Create an empty Array and use a For loop of 10 repetitions to add ev-
+ery number of the loop on the array. At the end of the For loop, in 
+the Array should be 10 elements, from 0 to 9. Show in the nav console
+the final Array (use console.log) ***********************************/
+
+var tenElements = [] ;
+
+for (i=0; i<10 ; i++) {
+  tenElements.push(i) ;
+} 
+console.log ('Exercise D:' + ' ' + tenElements) ;
