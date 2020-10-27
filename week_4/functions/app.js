@@ -32,3 +32,13 @@ console.log('Exercise B - True: 4 + 7 = ' + result) ;
 result = sum("A",7) ;
 console.log('Exercise B - False: A + 7 = ' + result) ;
 
+/*Exercise C:********************************************************
+Create a function 'validate integer' that receive a number as a para-
+meter and return 'true' if it's an integer number.******************/
+
+function validateInteger (a) {
+  a === Math.round(a) ? console.log ('Exercise C: True') : console.log ('Exercise C: False') ;
+}
+
+validateInteger(8);
+validateInteger(9.5);
