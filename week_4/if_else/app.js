@@ -4,7 +4,7 @@ If the value is bigger or equal than 0.5, show an alert with the mess-
 age "Greater than 0,5". Else, an alert with the message "Lower than 0,5"
 *********************************************************************/
 
-Math.random() >= 0.5 ? console.log('Exercise A: Grater than 0,5') : console.log('Exercise A: Lower than 0,5') ;
+Math.random() >= 0.5 ? console.log('Exercise A: Grater than 0,5') : console.log('Exercise A: Lower than 0,5');
 
 /*Exercise B:********************************************************
 Create a variable with the name "Age" that contains a integer number
@@ -21,27 +21,27 @@ between 0-100 and display the following alert messages:*************/
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
-var Age = getRandomInt(0,100) ;
+var Age = getRandomInt(0,100);
 
 if(Age < 2) {
-  window.alert('Exercise B: Baby' + ' ' + Age) ;
-  console.log('Exercise B: Baby' + ' ' + Age) ;
+  alert('Exercise B: Baby' + ' ' + Age);
+  console.log('Exercise B: Baby' + ' ' + Age);
 }else if(Age <= 12) {
-  window.alert('Exercise B: Kid' + ' ' + Age) ;
-  console.log('Exercise B: Kid' + ' ' + Age) ;
+  alert('Exercise B: Kid' + ' ' + Age);
+  console.log('Exercise B: Kid' + ' ' + Age);
 }else if(Age <= 19) {
-  window.alert('Exercise B: Teen' + ' ' + Age) ;
-  console.log('Exercise B: Teen' + ' ' + Age) ;
+  alert('Exercise B: Teen' + ' ' + Age);
+  console.log('Exercise B: Teen' + ' ' + Age);
 }else if(Age <= 30) {
-  window.alert('Exercise B: Young' + ' ' + Age) ;
-  console.log('Exercise B: Young' + ' ' + Age) ;
+  alert('Exercise B: Young' + ' ' + Age);
+  console.log('Exercise B: Young' + ' ' + Age);
 }else if(Age <= 60) {
-  window.alert('Exercise B: Adult' + ' ' + Age) ;
-  console.log('Exercise B: Adult' + ' ' + Age) ;
+  alert('Exercise B: Adult' + ' ' + Age);
+  console.log('Exercise B: Adult' + ' ' + Age);
 }else if(Age <= 75) {
-  window.alert('Exercise B: Elderly' + ' ' + Age) ;
-  console.log('Exercise B: Elderly' + ' ' + Age) ;
+  alert('Exercise B: Elderly' + ' ' + Age);
+  console.log('Exercise B: Elderly' + ' ' + Age);
 }else {
-  window.alert('Exercise B: Old man' + ' ' + Age) ;
-  console.log('Exercise B: Old man' + ' ' + Age) ;
-} ;
+  alert('Exercise B: Old man' + ' ' + Age);
+  console.log('Exercise B: Old man' + ' ' + Age);
+};

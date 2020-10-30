@@ -6,10 +6,10 @@ ing the value in the nav console.************************************/
 var result
 
 function sum1(a,b) {
-  return a + b ;
+  return a + b;
 }
-result = sum1(4,7) ;
-console.log('Exercise A: 4 + 7 = ' + result) ;
+result = sum1(4,7);
+console.log('Exercise A: 4 + 7 = ' + result);
 
 /*Exercise B:********************************************************
 To the previous function, add a validation to control if any of the 
@@ -21,10 +21,10 @@ var result
 
 function sum2 (a,b) {
   if ( (typeof (a) == 'number') && (typeof (b) == 'number') ) {
-    return a + b ;
+    return a + b;
   }else {
-    window.alert ('Exercise B: a parameter have an error')
-    return NaN ;
+    alert ('Exercise B: a parameter have an error');
+    return NaN;
   }
 }
 result = sum2 (4,7) ;
@@ -37,7 +37,7 @@ Create a function 'validate integer' that receive a number as a para-
 meter and return 'true' if it's an integer number.******************/
 
 function validateInteger (a) {
-  a === Math.round(a) ? console.log ('Exercise C: True') : console.log ('Exercise C: False') ;
+  a === Math.round(a) ? console.log ('Exercise C: True') : console.log ('Exercise C: False');
 }
 validateInteger (8);
 validateInteger (9.5);
@@ -51,21 +51,21 @@ var result
 
 function sum3(a,b) {
   if ((typeof (a) != 'number') || (typeof (b) != 'number')) {
-    window.alert ('Exercise D: a parameter have an error') ;
-    return NaN ;
+    alert ('Exercise D: a parameter have an error');
+    return NaN;
   }else if ( (a === Math.round(a)) && (b === Math.round(b))) {
-    return a + b ;
+    return a + b;
   }else {
-    window.alert ('Exercise D: a parameter is not integer') ;
-    return Math.round(a) + Math.round(b) ;
+    alert ('Exercise D: a parameter is not integer');
+    return Math.round(a) + Math.round(b);
   }
 }
-result = sum3 (4,7) ;
-console.log ('Exercise D - True: 4 + 7 = ' + result) ;
-result = sum3 ("A",7) ;
-console.log ('Exercise D - False: A + 7 = ' + result) ;
-result = sum3 (4.3,7) ;
-console.log ('Exercise D - False: 4.3 + 7 = ' + result) ;
+result = sum3 (4,7);
+console.log ('Exercise D - True: 4 + 7 = ' + result);
+result = sum3 ("A",7);
+console.log ('Exercise D - False: A + 7 = ' + result);
+result = sum3 (4.3,7);
+console.log ('Exercise D - False: 4.3 + 7 = ' + result);
 
 /*Exercise E:********************************************************
 Transform the validation of exercise 6-B into a separate function and 
@@ -76,21 +76,21 @@ var result
 
 function sum4 (a,b) {
   if (validation (a,b)) {
-    return a + b ;
+    return a + b;
   } else{
     return NaN;
   }
 }
 function validation (a,b){
   if ( (typeof (a) == 'number') && (typeof (b) == 'number') ) {
-    return true ;
+    return true;
   }else {
-    window.alert ('Exercise E: a parameter have an error')
-    return false ;
+    alert ('Exercise E: a parameter have an error')
+    return false;
   }
 }
 
 result = sum4 (4,7) ;
-console.log ('Exercise E - True: 4 + 7 = ' + result) ;
+console.log ('Exercise E - True: 4 + 7 = ' + result);
 result = sum4 ("A",7) ;
-console.log ('Exercise E - False: A + 7 = ' + result) ;
+console.log ('Exercise E - False: A + 7 = ' + result);
