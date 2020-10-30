@@ -53,7 +53,7 @@ function sum3(a,b) {
   if ((typeof (a) != 'number') || (typeof (b) != 'number')) {
     alert ('Exercise D: a parameter have an error');
     return NaN;
-  }else if ( (a === Math.round(a)) && (b === Math.round(b))) {
+  }else if (validateInteger(a) && validateInteger(b)) {
     return a + b;
   }else {
     alert ('Exercise D: a parameter is not integer');
