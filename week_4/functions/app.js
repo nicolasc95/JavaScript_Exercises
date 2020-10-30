@@ -37,10 +37,10 @@ Create a function 'validate integer' that receive a number as a para-
 meter and return 'true' if it's an integer number.******************/
 
 function validateInteger (a) {
-  a === Math.round(a) ? console.log ('Exercise C: True') : console.log ('Exercise C: False');
+  return Number.isInteger(a);
 }
-validateInteger (8);
-validateInteger (9.5);
+console.log ("Exercise C: 8" + ' ' + validateInteger (8));
+console.log ("Exercise C: 9.5" + ' ' + validateInteger (9.5));
 
 /*Exercise D:********************************************************
 Add to exercise 6-B a call who validate that the numbers being integers.
